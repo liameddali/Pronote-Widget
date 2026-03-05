@@ -56,8 +56,6 @@ fun LoginScreen(schoolName: String?, schoolUrl: String?, onLoginSuccess: () -> U
             color = Color.Gray
         )
 
-        Spacer(modifier = Modifier.height(24.dp))
-
         OutlinedTextField(
             value = username,
             onValueChange = { username = it },

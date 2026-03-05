@@ -87,7 +87,7 @@ fun SchoolScreen(onSchoolSelected: (String, String) -> Unit, onBack: () -> Unit)
             OutlinedTextField(
                 value = manualUrl,
                 onValueChange = { manualUrl = it },
-                label = { Text("URL PRONOTE directe") },
+                label = { Text("URL PRONOTE") },
                 placeholder = { Text("https://0000000x.index-education.net/pronote/") },
                 modifier = Modifier.weight(1f),
                 shape = RoundedCornerShape(16.dp),
